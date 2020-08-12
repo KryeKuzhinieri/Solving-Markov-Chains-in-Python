@@ -80,7 +80,7 @@ print(matrix)
 
 ### Question 2:
 1. In order to find the probability of completing the set of cards in 10 purchases we need to compute the nth power.
-2. We are looking for N-Step Transition Probabilities: $$ P(0,5)^{10} $$
+2. We are looking for N-Step Transition Probabilities: $$ P(0,5)^{10} $$ <img src="https://render.githubusercontent.com/render/math?math= P(0,5)^{10}">
 
 
 ```python
