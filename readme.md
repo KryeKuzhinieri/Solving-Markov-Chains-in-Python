@@ -94,7 +94,7 @@ print("The probability of completing a set of cards in 10 purchases is: ", round
 
 ### Question 3: 
 1. The question wants us to find the long term probabilities. That is, after buying countless boxes of cereals, what is the probability that you will end up with 3 unique cards?
-2. We are looking for Steady State Probabilites: <img src="https://render.githubusercontent.com/render/math?math=\pi_3=\sum_{i=1}^{5}\pi_i*p_{i3}\quadfor\quadj=0,1,2,....,5">
+2. We are looking for Steady State Probabilites: <img src="https://render.githubusercontent.com/render/math?math=\pi_3=\sum_{i=1}^{5}\pi_i*p_{i3} \quadfor \quad j=0,1,2,....,5">
 
 
 ```python
@@ -113,7 +113,7 @@ print("The probability that in the long term I get 3 unique cards is ", round(c[
 
 ### Question 4:
 1. We are asked to find the number of purchases needed to complete a set of cards; that is, collect 5 cards.
-2. We are looking for Mean Passage Times: <img src="https://render.githubusercontent.com/render/math?m_{05}=1+\sum_{k\neq5} P_{0k}*m_{k5}">
+2. We are looking for Mean Passage Times: <img src="https://render.githubusercontent.com/render/math?m_{05}=1+\sum_{k\neq5}P_{0k}*m_{k5}">
 
 
 ```python
