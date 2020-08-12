@@ -113,7 +113,7 @@ print("The probability that in the long term I get 3 unique cards is ", round(c[
 
 ### Question 4:
 1. We are asked to find the number of purchases needed to complete a set of cards; that is, collect 5 cards.
-2. We are looking for Mean Passage Times: <img src="https://render.githubusercontent.com/render/math?m_{05}=1+\sum_{k\neq5}P_{0k}*m_{k5}">
+2. We are looking for Mean Passage Times: <img src="https://render.githubusercontent.com/render/math?math=m_{05}=1+\sum_{k\neq5}P_{0k}*m_{k5}">
 
 
 ```python
